@@ -1,0 +1,56 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Iphone",
+            "price": 9999,
+            "images": [
+                "https://www.google.com/search?q=iphone&sxsrf=ACYBGNQRrNfd3yJIEVkOsxUSW3cNOsSaPw:1574513932606&source=lnms&tbm=isch&sa=X&ved=2ahUKEwicgJa9sYDmAhXB7XMBHYuZCrwQ_AUoA3oECBIQBQ&biw=1366&bih=625#imgrc=k8GfQemZAbjloM",
+                "https://www.google.com/search?q=iphone&sxsrf=ACYBGNQRrNfd3yJIEVkOsxUSW3cNOsSaPw:1574513932606&source=lnms&tbm=isch&sa=X&ved=2ahUKEwicgJa9sYDmAhXB7XMBHYuZCrwQ_AUoA3oECBIQBQ&biw=1366&bih=625#imgrc=srizsLkAM_WK_M"
+            ],
+            "category": "2",
+            "description": "Nice",
+            "stock quantity": 2
+        },
+       
+        {
+            "id": 2,
+            "name": "smalldiapper",
+            "price": 1000,
+            "images": [
+                "https://www.google.com/search?q=iphone&sxsrf=ACYBGNQRrNfd3yJIEVkOsxUSW3cNOsSaPw:1574513932606&source=lnms&tbm=isch&sa=X&ved=2ahUKEwicgJa9sYDmAhXB7XMBHYuZCrwQ_AUoA3oECBIQBQ&biw=1366&bih=625#imgrc=k8GfQemZAbjloM",
+                "https://www.google.com/search?q=iphone&sxsrf=ACYBGNQRrNfd3yJIEVkOsxUSW3cNOsSaPw:1574513932606&source=lnms&tbm=isch&sa=X&ved=2ahUKEwicgJa9sYDmAhXB7XMBHYuZCrwQ_AUoA3oECBIQBQ&biw=1366&bih=625#imgrc=srizsLkAM_WK_M"
+            ],
+            "category": "6",
+            "description": "Nice",
+            "stock quantity": 90
+        },
+
+
+        {
+            "id": 3,
+            "name": "LG washing machine",
+            "price": 25000,
+            "images": [
+                "https://www.google.com/search?q=iphone&sxsrf=ACYBGNQRrNfd3yJIEVkOsxUSW3cNOsSaPw:1574513932606&source=lnms&tbm=isch&sa=X&ved=2ahUKEwicgJa9sYDmAhXB7XMBHYuZCrwQ_AUoA3oECBIQBQ&biw=1366&bih=625#imgrc=k8GfQemZAbjloM",
+                "https://www.google.com/search?q=iphone&sxsrf=ACYBGNQRrNfd3yJIEVkOsxUSW3cNOsSaPw:1574513932606&source=lnms&tbm=isch&sa=X&ved=2ahUKEwicgJa9sYDmAhXB7XMBHYuZCrwQ_AUoA3oECBIQBQ&biw=1366&bih=625#imgrc=srizsLkAM_WK_M"
+            ],
+            "category": 4,
+            "description": "super",
+            "stock quantity": 10
+        }
+    ],
+    "cats": [
+{ "id": 1, "title" : "Electronics", "parentCat": 0 },     
+  { "id": 2, "title" : "Mobiles", "parentCat": 1 },
+  { "id": 3, "title" : "Tablets", "parentCat": 1 },
+  { "id": 4, "title" : "Washing machines", "parentCat": 1 },
+  { "id": 5, "title" : "Baby Care", "parentCat": 0 },
+  { "id": 6, "title" : "Diapers", "parentCat": 5 },
+  { "id": 7, "title" : "Baby Cloths", "parentCat":5  },
+  { "id": 8, "title" : "Beauty Care", "parentCat": 0 },
+  { "id": 9, "title" : "Lip care", "parentCat": 8 },
+  { "id": 10, "title" : "Creams and lotions", "parentCat": 8 } ]
+  
+   
+}
